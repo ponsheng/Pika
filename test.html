@@ -1,0 +1,17 @@
+<!-- <script src="json.js" type="text/javascript"></script> -->
+
+<script>
+var jsonData = '{"familys":{"up" : false, "down" : true, "forward" : true}}';
+var jsonObj = JSON.parse(jsonData);  // 將JSON格式資料轉為物件
+console.log(jsonObj.familys.up); // Bruce
+console.log(jsonObj.familys.down);
+console.log(jsonObj.familys.forward);
+/*var user={
+    UserName: "123",
+    Sex: "male"
+};
+var str=JSON.stringify(user);
+alert(str);
+
+var obj=JSON.parse(str);*/
+</script>
